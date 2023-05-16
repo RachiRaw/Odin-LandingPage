@@ -59,6 +59,7 @@ ul.navlinks li a:visited{
     background-color: #e0dad8c7; 
 }
 
+/* ----------Styling Banner-------- */
 .banner {
     display: flex;
     background-color: #1f2937;
@@ -69,6 +70,7 @@ ul.navlinks li a:visited{
     padding-bottom: 3rem;
 }
 
+/* ----------Left side styling--------- */
 .side1{
     display: flex;
     flex-direction: column;
@@ -100,6 +102,8 @@ ul.navlinks li a:visited{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/* -----------Right side styling------------- */
 .side2{
     width: 27rem;
     height: 24rem;
@@ -110,3 +114,48 @@ ul.navlinks li a:visited{
     width: 100%;
 }
  
+/* ----------Styling the container box for images---------- */
+.middle{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.Information{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.somerescues{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+figure{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+figure img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #40add8;
+    border-radius: 15px;
+}
+
+figcaption{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    
+}
+
